@@ -3,8 +3,15 @@
   background-color: #EAEAEA;
 } */
 
-.menu-item{
+.menu-item {
   cursor: pointer;
 }
 
-
+.dropdown {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  position: absolute !important;
+  
+  
+}
