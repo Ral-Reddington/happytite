@@ -83,7 +83,8 @@ const Navbar = () => {
                     Diets
                   </span>
                   {dropDownState ? ( <div className="dropdown" >
-                    edet
+                    Low Carbs <br/>
+					Vegetarian <br/>
                   </div>) :('')}
                 </div>
               </li>{" "}

@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroComponent from '../reuseable-components/HeroComponent'
+import Nutriblogcomponents from '../reuseable-components/Nutriblogcomponents';
 import TrendingComponent from '../reuseable-components/TrendingComponent'
   
 const HomePage = () => {
@@ -7,6 +8,7 @@ const HomePage = () => {
 		<div className='m-5'>
       <HeroComponent />
       <TrendingComponent />
+	  <Nutriblogcomponents/>
 		</div>
 	);
 };
