@@ -14,7 +14,7 @@ const HeroComponent = () => {
 						just for you according to any diet you want.
 					</p>
 					<div className='d-flex'>
-						<button>Create meal plan</button>
+						<button className='button1'>Create meal plan</button>
 						<button>Explore recipes</button>
 					</div>
 					{/* Companies that trust us */}
