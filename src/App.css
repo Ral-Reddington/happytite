@@ -84,3 +84,7 @@ justify-content: center;
   background-color: #6FCF97;
   
 }
+
+.nutriblog-hover:hover {
+  background-color: red;
+}

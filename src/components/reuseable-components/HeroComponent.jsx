@@ -63,7 +63,7 @@ const HeroComponent = () => {
           {/* Companies that trust us */}
         </div>
         <div className="" style={{ marginTop: "114px" }}>
-          <img width={470} height={440} src={heroImage} alt="" srcset="" />
+          <img width={470} height={440} src={heroImage} alt="the-header"  />
         </div>
       </div>
     </div>
