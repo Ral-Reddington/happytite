@@ -4,7 +4,7 @@ import logo from "../img/Logo.svg";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-   const[dropDownState,setDropDownState]=useState(false)
+  const [dropDownState, setDropDownState] = useState(false);
 
   const handleHoverState = (e) => {
     e.target.style.background = "#F2994A";
@@ -15,8 +15,8 @@ const Navbar = () => {
   };
 
   const handleDropDown = () => {
-     setDropDownState(!dropDownState)
-  }
+    setDropDownState(!dropDownState);
+  };
 
   return (
     <>
@@ -78,14 +78,58 @@ const Navbar = () => {
                     aria-current="page"
                     onMouseOver={handleHoverState}
                     onMouseOut={handleHoverStateOut}
-					onClick={handleDropDown}
+                    onClick={handleDropDown}
                   >
                     Diets
                   </span>
-                  {dropDownState ? ( <div className="dropdown" >
-                    Low Carbs <br/>
-					Vegetarian <br/>
-                  </div>) :('')}
+                  {dropDownState ? (
+                    <div className="dropdown">
+                      <p
+                        className="dietlist menu-item"
+                        onMouseOver={handleHoverState}
+                        onMouseOut={handleHoverStateOut}
+                      >
+                        Low Carbs
+                      </p>
+                      <p
+                        className="dietlist menu-item"
+                        onMouseOver={handleHoverState}
+                        onMouseOut={handleHoverStateOut}
+                      >
+                        Vegetarian{" "}
+                      </p>
+                      <p
+                        className="dietlist menu-item"
+                        onMouseOver={handleHoverState}
+                        onMouseOut={handleHoverStateOut}
+                      >
+                        Pescaterian{" "}
+                      </p>
+                      <p
+                        className="dietlist menu-item"
+                        onMouseOver={handleHoverState}
+                        onMouseOut={handleHoverStateOut}
+                      >
+                        Vegan{" "}
+                      </p>
+                      <p
+                        className="dietlist menu-item"
+                        onMouseOver={handleHoverState}
+                        onMouseOut={handleHoverStateOut}
+                      >
+                        Paleo{" "}
+                      </p>
+                      <p
+                        className="dietlist menu-item"
+                        onMouseOver={handleHoverState}
+                        onMouseOut={handleHoverStateOut}
+                      >
+                        keto{" "}
+                      </p>
+                    </div>
+                  ) : (
+                    ""
+                  )}
                 </div>
               </li>{" "}
               <li className="nav-item">

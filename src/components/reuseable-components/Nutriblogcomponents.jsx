@@ -26,7 +26,7 @@ const Nutriblogcomponents = () => {
   }
 
   return (
-    <div className="">
+    <div className="" style={{ marginLeft: "200px", marginTop: "120px" }}>
       <h2 className="my-5">Nutri blog</h2>
       <div className="d-flex justify-content-between">
         <div

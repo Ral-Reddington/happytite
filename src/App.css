@@ -2,6 +2,35 @@
 /* body {
   background-color: #EAEAEA;
 } */
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif
+}
+.textcolor{
+  color: #333333;
+}
+
+h4{
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  
+}
+
+b{
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  
+}
+h1{
+  font-weight: 700 !important;
+  font-size: 56px !important;
+}
+
+h2{
+  font-weight: 600 !important;
+  font-size: 40px !important;
+  
+}
 
 .menu-item {
   cursor: pointer;
@@ -9,11 +38,12 @@
 
 .dropdown {
   width: 100px;
-  height: 200px;
+  height: 300px;
   background-color: #ffffff;
   position: absolute !important;
   border-radius: 7px;
-  box-shadow: #ffffff;
+  box-shadow: #000000;
+  padding: 4px;
   
   
 }
@@ -21,4 +51,36 @@
 .blogcard{
   width: 321;
   height: 130;
+}
+
+.dietlist{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.button-orange{
+  background-color: #F2994A;
+  border-radius: 8px;
+  border: none;
+  
+  
+
+}
+
+.button-green{
+  background-color: #219653;
+  border-radius: 8px;
+  border: none;
+  
+
+}
+
+.homepage{
+display:flex;
+justify-content: center;
+}
+
+.trending-bg-color{
+  background-color: #6FCF97;
+  
 }

@@ -1,16 +1,16 @@
-import React from 'react';
-import HeroComponent from '../reuseable-components/HeroComponent'
-import Nutriblogcomponents from '../reuseable-components/Nutriblogcomponents';
-import TrendingComponent from '../reuseable-components/TrendingComponent'
-  
+import React from "react";
+import HeroComponent from "../reuseable-components/HeroComponent";
+import Nutriblogcomponents from "../reuseable-components/Nutriblogcomponents";
+import TrendingComponent from "../reuseable-components/TrendingComponent";
+
 const HomePage = () => {
-	return (
-		<div className='m-5'>
+  return (
+    <div className="">
       <HeroComponent />
       <TrendingComponent />
-	  <Nutriblogcomponents/>
-		</div>
-	);
+      <Nutriblogcomponents />
+    </div>
+  );
 };
 
 export default HomePage;
