@@ -7,6 +7,7 @@ import cvshealth from '../img/cvshealth.svg';
 import flatiron from '../img/flatiron.svg';
 import hinge from '../img/hinge.svg';
 import Typewriter from 'typewriter-effect';
+import { Link } from 'react-router-dom';
 
 const HeroComponent = () => {
 	return (
@@ -35,7 +36,7 @@ const HeroComponent = () => {
 					</div>
 					<div style={{ marginTop: '40px' }} className='d-flex'>
 						<div className='me-4'>
-							<button className='button-orange p-2'>Create meal plan</button>
+							<Link to="meal-planner" style={{pointer:'cursor'}}><button className='button-orange p-2'>Create meal plan</button></Link>
 						</div>
 						<div>
 							<button className='button-green p-2'>Explore recipes</button>

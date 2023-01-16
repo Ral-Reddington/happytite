@@ -65,6 +65,16 @@ h2 {
 	border: none;
 }
 
+.button-orange:hover {
+  background-color: #572c06;
+  box-shadow: #000000;
+}
+
+.button-green:hover {
+  background-color: #a2edc2;
+  box-shadow: #000000;
+}
+
 .button-green {
 	background-color: #219653;
 	border-radius: 8px;
